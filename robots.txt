@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://espanol-kurs.ru/sitemap.xml
