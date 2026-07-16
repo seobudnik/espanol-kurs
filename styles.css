@@ -295,9 +295,11 @@ strong {
 .teacher-photo {
   width: 100%;
   min-height: 260px;
-  background:
-    url("assets/teacher.jpg") center / cover no-repeat,
-    linear-gradient(160deg, #2a5560, #12262e);
+  background-color: #12262e;
+  background-image: url("assets/teacher.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .lessons-list {
@@ -348,15 +350,19 @@ strong {
 
 .topic-media {
   min-height: 220px;
-  background: center / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .topic-media-1 {
-  background-image: url("assets/topic-1.jpg"), linear-gradient(145deg, #1e4a52, #0c1a1f);
+  background-color: #0c1a1f;
+  background-image: url("assets/topic-1.jpg");
 }
 
 .topic-media-2 {
-  background-image: url("assets/topic-2.jpg"), linear-gradient(155deg, #4a332c, #0c1a1f);
+  background-color: #0c1a1f;
+  background-image: url("assets/topic-2.jpg");
 }
 
 .topic-copy p {
